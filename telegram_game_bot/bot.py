@@ -5,7 +5,10 @@ import random
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, BotCommand
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "7824415544:AAGL-2B2AvnpLSmU_lk9g8WVrzJpWj4jx6s"
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 users = {}
 logging.basicConfig(level=logging.INFO)
 
