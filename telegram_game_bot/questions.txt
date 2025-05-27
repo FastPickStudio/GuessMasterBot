@@ -1,0 +1,3 @@
+ru;Назови фрукты;яблоко,банан,апельсин,груша
+en;Name some fruits;apple,banana,orange,pear
+az;Meyvələri adlandırın;alma,banan,portağal,armud
